@@ -3,13 +3,13 @@ package pg
 import (
 	"context"
 	"fmt"
+	"github.com/FreylGit/platform_common/pkg/db"
+	"github.com/FreylGit/platform_common/pkg/db/prettier"
 	"github.com/georgysavva/scany/v2/pgxscan"
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 	"log"
-	"platform_common/pkg/db"
-	"platform_common/pkg/db/prettier"
 )
 
 type pg struct {
