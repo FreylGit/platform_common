@@ -2,10 +2,10 @@ package transaction
 
 import (
 	"context"
+	"github.com/FreylGit/platform_common/pkg/db"
+	"github.com/FreylGit/platform_common/pkg/db/pg"
 	"github.com/jackc/pgx/v5"
 	"github.com/pkg/errors"
-	"platform_common/pkg/db"
-	"platform_common/pkg/db/pg"
 )
 
 type manager struct {
