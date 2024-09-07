@@ -2,8 +2,9 @@ package pg
 
 import (
 	"context"
+	"github.com/FreylGit/platform_common/pkg/db"
+
 	"github.com/jackc/pgx/v5/pgxpool"
-	"platform_common/pkg/db"
 )
 
 type pgClient struct {
